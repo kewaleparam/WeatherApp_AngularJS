@@ -1,0 +1,71 @@
+ <nav class="navbar-inverse navbar navbar-toggleable-md bg-primary bg-faded ">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="brand navbar-brand" href="#">World's Weather</a>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+     
+          <li class="item nav-item"> <a class="nav-link" [routerLink]="['/login-control/signup']" >SignUp</a> </li>
+          <li class="item nav-item"> <a class="nav-link" [routerLink]="['/login-control/login']">Login</a> </li>
+      </ul>
+    
+    </div>
+  </nav> 
+<!-- 
+  <nav class="navbar navbar-inverse navbar-fixed-top my-navbar">				
+      <div class="container">
+        <a href="index.html" class="brandname navbar-brand">World's Weather</a>
+  
+        <div class="navbar-header navbar-right ">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="#seasons-video">Weather Report</a></li>
+            <li><a href="./weather.html">Weather Analysis</a></li>
+            <li><a href="#map">Locate Yourself</a></li>	
+          </ul>
+        </div>
+      </div>
+      <section>
+          <div class="container" align="right">
+          <form action="" class="form-inline">
+            <div class="form-group">
+              <input type = "text" class="form-control" placeholder="Enter your City">
+              <button type ="" class="btn btn-default">Search</button>
+            </div>
+          </form>
+      </div>
+      </section>
+    </nav>	
+   -->
+<router-outlet></router-outlet>
+
+
+<div class="footcolor ">
+<hr />
+<footer class="footcolor text-center " >
+    <p>World's Weather &copy; 2017</p>
+    <div >
+      <a href="http://www.twitter.com">
+        <i class="fa fa-twitter" style="font-size:24px"></i>
+      </a>
+  
+      <a href="http://www.facebook.com">
+        <i class="fa fa-facebook-official" style="font-size:24px ; color: #0C248F"></i>
+      </a>
+  
+      <a href="https://in.linkedin.com/">
+        <i class="fa fa-linkedin-square" style="font-size:24px ; color: blue"></i>
+      </a>
+  
+      <a href="https://www.whatsapp.com/">
+        <i class="fa fa-whatsapp" style="font-size:24px ; color: green"></i>
+      </a>
+  
+    </div>
+  </footer>
+</div>
+
+
+

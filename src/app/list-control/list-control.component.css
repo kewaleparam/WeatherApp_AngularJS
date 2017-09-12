@@ -1,0 +1,23 @@
+.dhiru {
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+pagination-controls{
+  padding:30px;
+  font-size: 20px;
+ text-align: center;
+ position: relative;
+}
+pagination-controls li{
+color: white;
+}
+
+
+.post /*for jumbotron*/
+{
+	background-image: url('http://i.ndtvimg.com/i/2016-02/wheat-625_625x350_81455701890.jpg');
+	background-size: 100% 100%;
+	height:700px;
+	
+}

@@ -1,0 +1,20 @@
+<div class="post jumbotron">
+	<div class="container text-center">
+		<h1>World's Weather</h1>
+		<p id="jumbotron-text">Where You Get Your Weather Matters </p>
+	</div> <!-- container -->
+</div> <!-- post -->
+
+
+
+
+<div class="container-fluid">
+			<div class="row">
+
+						<div class="col-lg-4"  *ngFor="let item of modellist | paginate: { itemsPerPage: 6, currentPage: p }">
+						 
+						 <app-detail-list *ngIf="item" [Data]="item"></app-detail-list>
+						 </div>
+			 </div>
+		 <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>
